@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: Inversionz;
+    src: url('../fonts/Inversionz.otf');
+}
+@font-face{
+  font-family: dot;
+  src:url('../fonts/Inversionz Unboxed.otf');
+}
+
+
+
+
+.content1{
+
+}
+
+.logosvg{
+  position: absolute;
+  margin: 0;
+  padding: 0; 
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  text-align: center;
+  font-family: Inversionz;
+  font-size: 15em;
+ font-weight: 700;
+ z-index: 0;
+}
+.logosvg img{
+  width: 20%;
+}
+.acm{
+  position: absolute;
+  margin: 0;
+  padding: 0; 
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  text-align: center;
+  font-family: Inversionz;
+  font-size: 10em;
+  font-weight: 700;
+  z-index: 0;
+}
+.tech{
+  position: absolute;
+  margin: 0;
+  padding: 0; 
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  text-align: center;
+  font-family: Inversionz !important;
+  font-size: 7.5em;
+  z-index: 0;
+}
+.tech img {
+  width: 130px;
+  margin-bottom: 6%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.tech p{
+  font-size: 30px !important;  
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.tech p img{
+  padding-top: 10px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .tech{
+      padding: 0;
+    margin-top: 50%;
+  }
+  .content1{
+      padding: 0;
+ min-height: 130vh;
+
+}
+.logosvg h1{
+  margin-top: 0 !important;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+  .content1{
+    height: 0vh 
+  }
+}
+
+
+footer{
+    height: 12vh;
+ 
+}
+
+#particles-js{
+    padding: 0;
+    margin:0;
+background-image: url("../images/newhp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+ 

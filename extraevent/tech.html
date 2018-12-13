@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>VIGNAN ACM__TECH PRESENTATION</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  <link rel = "stylesheet" type = "text/css" href = "../css/navbar.css" />
+  <link rel = "stylesheet" type = "text/css" href = "../css/headerfooter.css" />
+  <link rel = "stylesheet" type = "text/css" href = "../css/interclass.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Required meta tags -->
+</head>
+<body id="top" >
+  <header>
+    <div class="header1">
+      <a href="../home.html"><img src="../images/homepage.jpg" alt="" class="logohead"> </a>     
+      <h1>details</h1>
+      <div class="button_container" id="toggle" style="z-index: 9999999">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+      <div class="overlay" id="overlay" style="z-index: 999">
+        <nav class="overlay-menu">
+          <ul >
+            <li><a href="../home.html" >home</a></li>
+            <li><a href="../about.html" >about</a></li>
+            <li><a href="../events.html" >events</a></li>
+            <li><a href="../gallery.html" >gallery</a></li>
+            <li><a href="../team.html" >team</a></li> 
+            <li><a href="../contact.html" >contact</a></li>   
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="section container-fluid">
+    
+    <div class="row">
+      <div class="col-md-6"> 
+        <center>     
+          <img src="../events/tech.png" >
+        </center>
+      </div>
+      <div class="col-md-6">
+        <div class="details" >
+          <h2>Tech Presesntation</h2>
+          <p>
+           Analzying the new ideas by various presentations!.
+          </p>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+
+  <footer class="container-fluid" style="z-index: 3"> 
+    <div class="row">
+      <div class="col-md-9">
+        <p class="copyrights" >RIGHTS @ VIGNAN TEAM 2K18</p>
+      </div>
+      <div class="col-md-3">
+        <p class="icons"><a href="https://www.acm.org/"><i class="fa fa-globe" aria-hidden="true"></i></a><a href="https://www.facebook.com/../"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+      </div>
+    </div>     
+  </footer>
+
+  
+</body>
+
+
+
+
+<script type="text/javascript">
+  $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+</html>
